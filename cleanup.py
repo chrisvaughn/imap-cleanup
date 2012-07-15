@@ -5,25 +5,25 @@ import imaplib
 
 
 configuration = {
-            'example_account_1': {
-                'host': 'imap.gmail.com',
-                'user': 'example_account_1@gmail.com',
-                'mailbox': '[Gmail]/All Mail',
-                'email_addresses_to_remove': [
-                    '@facebookmail.com',
-                    '@e.groupon.com'
-                ]
-            },
-            'example_account_2': {
-                'host': 'imap.example_email_host.com',
-                'user': 'example_account@example_email_host.com',
-                'mailbox': 'Archive',
-                'email_addresses_to_remove': [
-                    'example_account_1@gmail.com',
-                    'spam@'
-                ],
-            }
-        }
+    'example_account_1': {
+        'host': 'imap.gmail.com',
+        'user': 'example_account_1@gmail.com',
+        'mailbox': '[Gmail]/All Mail',
+        'email_addresses_to_remove': [
+            '@facebookmail.com',
+            '@e.groupon.com'
+        ]
+    },
+    'example_account_2': {
+        'host': 'imap.example_email_host.com',
+        'user': 'example_account@example_email_host.com',
+        'mailbox': 'Archive',
+        'email_addresses_to_remove': [
+            'example_account_1@gmail.com',
+            'spam@'
+        ],
+    }
+}
 
 
 def main():
